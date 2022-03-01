@@ -258,8 +258,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/stats-base-dmskmin.svg
 [npm-url]: https://npmjs.org/package/@stdlib/stats-base-dmskmin
 
-[test-image]: https://github.com/stdlib-js/stats-base-dmskmin/actions/workflows/test.yml/badge.svg
-[test-url]: https://github.com/stdlib-js/stats-base-dmskmin/actions/workflows/test.yml
+[test-image]: https://github.com/stdlib-js/stats-base-dmskmin/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/stats-base-dmskmin/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/stats-base-dmskmin/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/stats-base-dmskmin?branch=main
