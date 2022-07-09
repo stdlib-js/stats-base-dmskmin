@@ -59,7 +59,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.dmskmin;
+})();
 })();
 </script>
 ```
@@ -189,6 +191,7 @@ var v = dmskmin.ndarray( N, x, 2, 1, mask, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmskmin@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var mask;
 var x;
@@ -210,6 +213,7 @@ console.log( mask );
 var v = dmskmin( x.length, x, 1, mask, 1 );
 console.log( v );
 
+})();
 })();
 </script>
 </body>
@@ -308,25 +312,25 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/stats-base-dmskmin/main/LICENSE
 
-[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd
+[@stdlib/array/float64]: https://github.com/stdlib-js/array-float64/tree/umd/tree/umd
 
-[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8/tree/umd
+[@stdlib/array/uint8]: https://github.com/stdlib-js/array-uint8/tree/umd/tree/umd
 
 [mdn-typed-array]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypedArray
 
 <!-- <related-links> -->
 
-[@stdlib/stats/base/dmin]: https://github.com/stdlib-js/stats-base-dmin/tree/umd
+[@stdlib/stats/base/dmin]: https://github.com/stdlib-js/stats-base-dmin/tree/umd/tree/umd
 
-[@stdlib/stats/base/dmskmax]: https://github.com/stdlib-js/stats-base-dmskmax/tree/umd
+[@stdlib/stats/base/dmskmax]: https://github.com/stdlib-js/stats-base-dmskmax/tree/umd/tree/umd
 
-[@stdlib/stats/base/dnanmin]: https://github.com/stdlib-js/stats-base-dnanmin/tree/umd
+[@stdlib/stats/base/dnanmin]: https://github.com/stdlib-js/stats-base-dnanmin/tree/umd/tree/umd
 
-[@stdlib/stats/base/dnanmskmin]: https://github.com/stdlib-js/stats-base-dnanmskmin/tree/umd
+[@stdlib/stats/base/dnanmskmin]: https://github.com/stdlib-js/stats-base-dnanmskmin/tree/umd/tree/umd
 
-[@stdlib/stats/base/mskmin]: https://github.com/stdlib-js/stats-base-mskmin/tree/umd
+[@stdlib/stats/base/mskmin]: https://github.com/stdlib-js/stats-base-mskmin/tree/umd/tree/umd
 
-[@stdlib/stats/base/smskmin]: https://github.com/stdlib-js/stats-base-smskmin/tree/umd
+[@stdlib/stats/base/smskmin]: https://github.com/stdlib-js/stats-base-smskmin/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
