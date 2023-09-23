@@ -50,6 +50,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+dmskmin = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmskmin@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dmskmin/tags). For example,
+
+```javascript
 dmskmin = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmskmin@v0.1.0-umd/browser.js' )
 ```
 
@@ -62,7 +67,7 @@ var dmskmin = require( 'path/to/vendor/umd/stats-base-dmskmin/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmskmin@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmskmin@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -197,7 +202,7 @@ var v = dmskmin.ndarray( N, x, 2, 1, mask, 2, 1 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmskmin@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmskmin@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
