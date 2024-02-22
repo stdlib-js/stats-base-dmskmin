@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dmskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmskmin@deno/mod.js';
+import dmskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmskmin@v0.2.1-deno/mod.js';
 ```
 
 #### dmskmin( N, x, strideX, mask, strideMask )
@@ -170,7 +170,7 @@ import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@deno/mod.js';
 import Float64Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float64@deno/mod.js';
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@deno/mod.js';
-import dmskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmskmin@deno/mod.js';
+import dmskmin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dmskmin@v0.2.1-deno/mod.js';
 
 var mask;
 var x;
