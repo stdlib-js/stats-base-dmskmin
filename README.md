@@ -345,7 +345,7 @@ int main( void ) {
 ## See Also
 
 -   <span class="package-name">[`@stdlib/stats-strided/dmin`][@stdlib/stats/strided/dmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array.</span>
--   <span class="package-name">[`@stdlib/stats-base/dmskmax`][@stdlib/stats/base/dmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask.</span>
+-   <span class="package-name">[`@stdlib/stats-strided/dmskmax`][@stdlib/stats/strided/dmskmax]</span><span class="delimiter">: </span><span class="description">calculate the maximum value of a double-precision floating-point strided array according to a mask.</span>
 -   <span class="package-name">[`@stdlib/stats-strided/dnanmin`][@stdlib/stats/strided/dnanmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-base/dnanmskmin`][@stdlib/stats/base/dnanmskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a double-precision floating-point strided array according to a mask, ignoring NaN values.</span>
 -   <span class="package-name">[`@stdlib/stats-base/mskmin`][@stdlib/stats/base/mskmin]</span><span class="delimiter">: </span><span class="description">calculate the minimum value of a strided array according to a mask.</span>
@@ -437,7 +437,7 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/strided/dmin]: https://github.com/stdlib-js/stats-strided-dmin
 
-[@stdlib/stats/base/dmskmax]: https://github.com/stdlib-js/stats-base-dmskmax
+[@stdlib/stats/strided/dmskmax]: https://github.com/stdlib-js/stats-strided-dmskmax
 
 [@stdlib/stats/strided/dnanmin]: https://github.com/stdlib-js/stats-strided-dnanmin
 
